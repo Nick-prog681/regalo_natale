@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalo di Natale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Surprise di Natale!</h1>
+        <p>Rispondi alle domande per ricevere il tuo regalo.</p>
+        
+        <!-- Domanda 1 -->
+        <div class="question" id="question1">
+            <p>Qual è il tuo colore preferito?</p>
+            <button onclick="nextQuestion(1, 'red')">Rosso</button>
+            <button onclick="nextQuestion(1, 'blue')">Blu</button>
+            <button onclick="nextQuestion(1, 'green')">Verde</button>
+        </div>
+
+        <!-- Domanda 2 -->
+        <div class="question" id="question2" style="display:none;">
+            <p>Qual è il tuo animale preferito?</p>
+            <button onclick="nextQuestion(2, 'cat')">Gatto</button>
+            <button onclick="nextQuestion(2, 'dog')">Cane</button>
+            <button onclick="nextQuestion(2, 'bird')">Uccello</button>
+        </div>
+
+        <!-- Domanda 3 -->
+        <div class="question" id="question3" style="display:none;">
+            <p>Quale città ti piacerebbe visitare?</p>
+            <button onclick="nextQuestion(3, 'paris')">Parigi</button>
+            <button onclick="nextQuestion(3, 'rome')">Roma</button>
+            <button onclick="nextQuestion(3, 'newyork')">New York</button>
+        </div>
+
+        <!-- PDF -->
+        <div id="pdf-gift" style="display:none;">
+            <p>Complimenti! Hai completato il quiz. Ecco il tuo regalo:</p>
+            <a href="regalo.pdf" target="_blank">Scarica il PDF</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    
+    
+    </body>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    </html>
